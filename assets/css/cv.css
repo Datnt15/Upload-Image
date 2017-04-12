@@ -1,0 +1,377 @@
+@import url(http://weloveiconfonts.com/api/?family=entypo|fontawesome);
+
+/* entypo */
+
+[class*="entypo-"]:before {
+    font-family: 'entypo', sans-serif;
+}
+
+
+/* fontawesome */
+
+[class*="fontawesome-"]:before {
+    font-family: 'FontAwesome', sans-serif;
+}
+
+#main_container h1,
+#main_container h2,
+#main_container h3,
+#main_container h4,
+#main_container h5,
+#main_container h6{
+	color: #064e4e;
+}
+/* Utils */
+
+#main_container .clear {
+    clear: both;
+}
+
+#main_container .purple {
+    color: #837c9a;
+}
+
+#main_container .block {
+    margin: 25px 30px;
+}
+
+#main_container .block h1 {
+    margin-left: -5px;
+    font-weight: 200;
+    color: #064e4e;
+}
+
+#main_container .last.block {
+    margin-bottom: 110px;
+}
+
+#main_container .horizontal_list {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+#main_container .horizontal_list li {
+    float: left;
+}
+
+#main_container .horizontal_list li:before {
+    content: none;
+}
+
+#main_container .horizontal_list li {
+    padding-left: 0;
+    text-indent: 0;
+}
+
+#main_container .horizontal_line {
+    margin: 34px 0 0 30px;
+    height: 26px;
+    position: relative;
+}
+
+#main_container .line_left,
+#main_container .line_right {
+    border-top: 1px solid #064e4e;
+    width: 40%;
+    margin-top: 13px;
+}
+
+#main_container .line_left {
+    float: left;
+}
+
+#main_container .line_right {
+    float: right;
+}
+
+#main_container .left_circle,
+#main_container .central_circle,
+#main_container .right_circle {
+    background: #064e4e;
+    position: absolute;
+    border-radius: 50px;
+}
+
+#main_container #left_col{
+	padding-right: 30px;
+	padding-left: 30px;
+    border-right: 1px solid #064e4e;
+}
+
+#main_container .left_circle,
+#main_container .right_circle {
+    width: 13px;
+    height: 13px;
+    top: 7px;
+}
+
+#main_container .left_circle {
+    left: 47%;
+}
+
+#main_container .central_circle {
+    width: 26px;
+    height: 26px;
+    top: 0px;
+    left: 48%;
+}
+
+#main_container .right_circle {
+    left: 51%;
+}
+
+
+/* Main tags */
+
+#main_container {
+    background: url(../img/cv_bg.jpg) repeat;
+    margin: 0;
+}
+
+#main_container li{
+	list-style: none !important;
+}
+#main_container #Profile li:before {
+    content: "• ";
+    color: #837c9a;
+    font-size: 20px;
+    padding-right: 8px;
+}
+
+
+/* Containers size */
+#main_container #header_cv {
+    height: 130px;
+    border-bottom: 1px solid #064e4e;
+}
+
+#main_container .header_logotype_container {
+    height: 130px;
+    border-right: 1px solid #064e4e;
+    float: left;
+}
+
+#main_container .header_menu_container {
+    height: 130px;
+    float: left;
+}
+
+#main_container .header_menu_container a {
+    font-family: 'Lato', Helvetica, sans-serif;
+}
+
+/* HEADER */
+
+#main_container .logotype_name {
+    text-transform: uppercase;
+    font-size: 32px;
+    margin: 43px 0 0;
+}
+
+#main_container .logotype_occupation {
+    text-transform: uppercase;
+    margin-top: 5px;
+    color: #064e4e;
+    font-size: 14px;
+    letter-spacing: 2px;
+}
+
+
+#main_container .header_menu {
+    margin-top: 40px;
+    margin-left: 5px;
+}
+
+#main_container .header_menu a, #main_container .header_menu span {
+    text-decoration: none;
+    padding: 0 15px;
+    border-left: 1px solid #e4e3e8;
+    font-size: 16px;
+    font-weight: 400;
+    color: #064e4e;
+    cursor: pointer;
+}
+
+#main_container .header_menu a.no_border {
+    border-left: none;
+}
+
+#main_container .header_menu a:hover {
+    color: #108787;
+}
+
+
+/* LEFT NAV */
+
+#main_container #left_nav h2 {
+    margin: 0;
+    font-size: 24px;
+}
+
+#main_container .profile_frame {
+    height: 200px;
+    margin-top: 30px;
+}
+
+#main_container .profile_picture {
+    height: 200px;
+    width: 200px;
+    float: none;
+    margin: 10px auto;
+    border-radius: 50%;
+    /*border: 1px solid #064e4e;*/
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#main_container .hello_content,
+#main_container .contact_details_content {
+    margin-top: 25px;
+}
+
+#main_container .contact_details_content h2 + p.purple {
+    margin-top: 10px;
+}
+
+#main_container .contact_details_content p {
+    margin: 0;
+}
+
+#main_container .contact_details_content p.purple {
+    margin-top: 25px;
+}
+
+#main_container .send_message_button,
+#main_container .special_button {
+    margin-top: 25px;
+    margin-left: 25px;
+    display: block;
+    background: #064e4e;
+    max-width: 230px;
+    height: 50px;
+    position: relative;
+    z-index: 1;
+}
+
+#main_container .cut1:after {
+    content: "";
+    position: absolute;
+    bottom: -19px;
+    left: -20px;
+    width: 30px;
+    height: 30px;
+    z-index: 9;
+    background: url(../img/cv_bg.jpg) repeat;
+    transform: rotate(45deg);
+}
+
+#main_container .cut2:before {
+    content: "";
+    position: absolute;
+    top: -19px;
+    right: -20px;
+    width: 30px;
+    height: 30px;
+    z-index: 9;
+    background: url(../img/cv_bg.jpg) repeat;
+    transform: rotate(45deg);
+}
+
+#main_container .content {
+    text-align: center;
+    color: #fff;
+    width: 100%;
+    height: 40px;
+    position: absolute;
+    z-index: 2;
+    font: 18px 'Lato', Arial, sans-serif;
+    margin: 0;
+    padding: 16px 0 0;
+    top: -4px;
+    bottom: 10px;
+    border-top: 1px solid #064e4e;
+}
+
+#main_container .send_message_button:hover,
+#main_container .special_button:hover {
+    background: #064e4e;
+}
+
+#main_container .get_social_content {
+    margin-top: 15px;
+}
+
+#main_container .get_social_content h2 {
+    margin-bottom: 8px;
+}
+
+#main_container .social_icons {
+    margin-left: -8px;
+}
+
+#main_container .social_icons a {
+    font-size: 35px;
+    text-decoration: none;
+    color: #064e4e;
+    padding: 0;
+    padding: 0 5px;
+}
+
+#main_container .social_icons a span.invisible {
+    display: none;
+}
+
+
+#main_container .footer_name {
+    font-style: italic;
+    margin-top: 20px;
+}
+
+
+/* Profile Content */
+
+#main_container .profile_quote {
+    position: relative;
+    /* margin-left: 5px; */
+    border-left: 2px solid #064e4e;
+}
+
+#main_container .profile_quote p {
+    font-size: 15px;
+    width: 90%;
+}
+
+#main_container .profile_quote .entypo-quote {
+    color: #064e4e;;
+    font-size: 80px;
+    font-style: normal;
+    position: absolute;
+    top: -20px;
+    right: 0px;
+    cursor: default;
+}
+
+#main_container .philosophy_content {
+    margin-top: 20px;
+}
+
+#main_container .philosophy_content p {
+    margin: 0;
+    width: 370px;
+    float: left;
+}
+
+#main_container .philosophy_content ul {
+    float: left;
+    padding-left: 40px;
+}
+
+.search-promotion.label.label-danger{
+    cursor: pointer;
+}
+
+.widget-toolbar a,.widget-toolbar a i{
+    cursor: pointer;
+}
